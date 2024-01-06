@@ -91,6 +91,13 @@ nav > a:hover{
     transition-duration:0.5s;
 }
 
+@media(max-width: 414px){
+    nav > a{
+        padding:10px;
+        font-size:0.8em;
+    }
+}
+
 main{
     background-color:white;
     max-width:1000px;
